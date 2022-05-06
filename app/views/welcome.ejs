@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>MMORPG - Game of Thrones</title>
+		
+		<!-- JQuery -->
+		<script src="js/jquery-2.2.1.js"></script>
+
+		<!-- bootstrap - link cdn -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+		<!-- incluindo css -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#btn_voltar').click(function(){
+				window.location.href= "/";
+					// alert("ok");
+				});
+			});
+			
+		</script>
+	</head>
+
+	<body class="body-index">
+
+		<nav class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<div class="form-inline form-entrar ">				
+					<button id="btn_voltar" type="button" class="btn btn-success">Voltar</button>
+				</div>
+			</div>
+			
+		</nav>
+
+	    <div class="container">
+			<h1>Parabéns, sua conta foi criada com sucesso</h1>
+	    </div>	
+		
+	</body>
+</html>
