@@ -1,4 +1,5 @@
 # Curso de nodeJS do Jorge Sant'ana GOT
+Joguinho MMORPG Game Of Thrones, feito em nodeJS, utilizando consign, ejs, express dentre outras libs.
 
 Para preparar o ambiente, na raiz do diretório, use o comando 
 ```bash
